@@ -56,7 +56,7 @@ class ArrayTests {
     @DisplayName("Check first element int array")
     fun checkFirstElementIntArray() {
         val numbers: Array<Int> = arrayOf(1, 2, 3, 4, 5)
-        numbers[0].shouldBe(1)
+        numbers.first() shouldBe 1
     }
 
     @Test
